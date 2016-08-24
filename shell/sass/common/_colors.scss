@@ -11,7 +11,7 @@
 //
 // Foreground colors
 //
-$fg_color: if($nokto == 'false', #263238, #ECEFF1);
+$fg_color: if($nokto == 'false', #212121, #ECEFF1);
 $secondary_fg_color: scale-color($fg_color, $alpha: -25%);
 
 $dim_fg_color: scale-color($fg_color, $alpha: -60%);
