@@ -28,7 +28,7 @@
 // Foreground colors
 //
 
-$fg_color: if($variant == 'light', #263238,                     // = BluGry900
+$fg_color: if($variant == 'light', #212121,                     // = BluGry900
                                    #ECEFF1);                    // = BluGry50
 $secondary_fg_color: gtkopacity($fg_color, 0.75);
 $tertiary_fg_color: gtkopacity($fg_color, 0.5);
@@ -61,7 +61,7 @@ $inverted_tertiary_fg_color: gtkopacity($inverted_fg_color, 0.5);
 $insensitive_inverted_fg_color: gtkopacity($inverted_fg_color, 0.3);
 $insensitive_inverted_secondary_fg_color: gtkopacity($inverted_secondary_fg_color, 0.3);
 
-$fixed_fg_color: #263238;                                       // = BluGry900
+$fixed_fg_color: #212121;                                       // = BluGry900
 $secondary_fixed_fg_color: gtkopacity($fixed_fg_color, 0.75);
 $insensitive_fixed_fg_color: gtkopacity($fixed_fg_color, 0.3);
 
@@ -79,7 +79,7 @@ $light_color: if($variant == 'light', $base_color,              // = White
                                       #546E7A);                 // = BluGry600
 $dark_color: if($variant == 'light',
                 mix(#ECEFF1, #CFD8DC, 75%),                     // =  50 _ 100
-                mix(#263238, #37474F, 75%));                    // = 900 _ 800
+                mix(#212121, #37474F, 75%));                    // = 900 _ 800
 $secondary_dark_color: if($variant == 'light',
                           mix(#FFFFFF, #ECEFF1, 60%),           // = W _ 50
                           mix(#455A64, #37474F, 25%));          // = 700 _ 800
@@ -91,7 +91,7 @@ $secondary_dark_color: if($variant == 'light',
 
 $inverted_bg_color: mix(#455A64, #37474F, 50%);                 // = 700 _ 800
 $inverted_base_color: #455A64;                                  // = BluGry700
-$inverted_dark_color: mix(#263238, #37474F, 75%);               // = 900 _ 800
+$inverted_dark_color: mix(#212121, #37474F, 75%);               // = 900 _ 800
 
 
 //
@@ -165,5 +165,5 @@ $error_bg_color: #FF1744;                                       // = RedA400
 // Solid panel color
 //
 
-$panel_bg_color: mix(#263238, #000000, 50%);                    // = BluGry900
+$panel_bg_color: mix(#212121, #000000, 50%);                    // = BluGry900
 
